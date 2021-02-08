@@ -415,7 +415,7 @@ YL.render = function (data) {
         if (first && !YL.static.serialNumber) {
           YL.onReady(function () {
             setTimeout(function () {
-              YL.msg("YLUI v" + YL.info.version + " 社区版", '当前YLUI为社区版，仅限个人用户学习使用，禁止商用及企业使用。<br/>更多信息及获取商业授权请访问:<br/>YLUI官网：' + '<a style="color: white" target="_blank" href="https://ylui.yuri2.cn">https://ylui.yuri2.cn</a><p>欢迎使用支付宝扫描二维码对作者进行捐赠，表达您对YLUI的支持~<br/><br/><img style="width: 100%" src="./res/img/donation.png"/></p>');
+              YL.msg("欢迎来到Kang'sBlog", '这里有我的一些分享和学习心得。<br/>想要了解我？:<br/>博客站点：' + '<a style="color: white" target="_blank" href="https://kangblogs.top">https://kangblogs.top</a><p>一起学习，一起进步~<br/><br/><img style="width: 100%" src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures@master/flipped-1121-PIC/blogwallpapers(26).png"/></p>');
             }, 1500)
           });
         }
