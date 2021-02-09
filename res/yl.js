@@ -2,7 +2,7 @@ window.YL = {
   info: {
     softwareName: 'YLUI',
     version: window.yluiVersion,
-    iconBtnStart: 'yoast',
+    iconBtnStart: 'windows',
     author: 'Yuri2',
     contactInformation: 'yuri2peter@qq.com',
     officialWebsite: 'https://ylui.yuri2.cn',
