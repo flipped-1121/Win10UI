@@ -176,9 +176,9 @@ YL.render = function (data) {
         that.runtime.isSmallScreen = clientSize.width <= 768;
         that.runtime.isHorizontalScreen = clientSize.width > clientSize.height;
         that.runtime.startMenu.width = clientSize.width > that.startMenu.width && !that.runtime.isSmallScreen
-          ? that.startMenu.width : clientSize.width;
+            ? that.startMenu.width : clientSize.width;
         that.runtime.startMenu.height = that.runtime.desktopSize.height > that.startMenu.height && !that.runtime.isSmallScreen
-          ? that.startMenu.height : that.runtime.desktopSize.height;
+            ? that.startMenu.height : that.runtime.desktopSize.height;
 
         //计算磁贴尺寸
         var widthFixed = that.runtime.startMenu.width - (that.runtime.isSmallScreen ? 80 : 328);
@@ -1284,7 +1284,7 @@ YL.render = function (data) {
             var bx = pt.x - p.x;
             var by = pt.y - p.y;
             if (Math.abs(bx) < that.runtime.shortcutWidth / 4
-              && Math.abs(by) < that.runtime.shortcutHeight / 2
+                && Math.abs(by) < that.runtime.shortcutHeight / 2
             ) {
               tid = i;
               tby = by;

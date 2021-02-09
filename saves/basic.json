@@ -154,7 +154,7 @@
       "desc": "浏览器",
       "icon": {
         "type": "fa",
-        "content": "internet-explorer",
+        "content": "chrome fa-spin",
         "bg": "#3a55c2"
       },
       "openMode": "normal",
@@ -442,6 +442,105 @@
       "url": "https://imgchr.com/",
       "customTile": "",
       "urlRandomToken": true
+    },
+    "kang-docs-java": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "JDK15",
+      "icon": {
+        "type": "img",
+        "content": "https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/java.png",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "oracle",
+      "resizable": false,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "JDK15",
+      "url": "https://docs.oracle.com/en/java/javase/15/docs/api/index.html",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "kang-docs-python": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "Python3.9.1",
+      "icon": {
+        "type": "img",
+        "content": "https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/python.png",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "oracle",
+      "resizable": false,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "Python3.9.1",
+      "url": "https://docs.python.org/zh-cn/3/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "kang-docs-animate": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "Animate",
+      "icon": {
+        "type": "img",
+        "content": "https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/adobe-animate.png",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "oracle",
+      "resizable": false,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "Animate",
+      "url": "https://animate.style/",
+      "customTile": "",
+      "urlRandomToken": false
     }
   },
   "shortcuts": [
@@ -452,35 +551,23 @@
       "hash": ""
     },
     {
-      "app": "yl-app-store",
-      "title": "应用商店",
-      "params": {},
-      "hash": ""
-    },
-    {
-      "app": "yl-app-home",
-      "title": "YLUI 官网",
-      "params": {},
-      "hash": ""
-    },
-    {
-      "title": "代码库",
+      "title": "文档库",
       "children": [
         {
-          "app": "ylui-documents",
-          "title": "在线文档",
+          "app": "kang-docs-java",
+          "title": "JDK15",
           "params": {},
           "hash": ""
         },
         {
-          "app": "ylui-github",
-          "title": "github",
+          "app": "kang-docs-python",
+          "title":"Python",
           "params": {},
           "hash": ""
         },
         {
-          "app": "ylui-gitee",
-          "title": "码云仓库",
+          "app": "kang-docs-animate",
+          "title":"Animate",
           "params": {},
           "hash": ""
         }
