@@ -541,6 +541,103 @@
       "url": "https://animate.style/",
       "customTile": "",
       "urlRandomToken": false
+    },
+    "kang-docs-regex": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "Regex",
+      "icon": {
+        "type": "img",
+        "content": "https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/%E6%AD%A3%E5%88%99%E5%BC%8F.png",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "oracle",
+      "resizable": false,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "Regex",
+      "url": "https://regex101.com/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "kang-social-qq": {"addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "QQ",
+      "icon": {
+        "type": "img",
+        "content": "https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/QQ.png",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "oracle",
+      "resizable": false,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "QQ",
+      "url": "https://wpa.qq.com/msgrd?v=1&uin=2517421382&site=houdao.com&menu=yes",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "kang-social-twitter": {
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "Twitter",
+      "icon": {
+        "type": "img",
+        "content": "https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/social-twitter.png",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "oracle",
+      "resizable": false,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "Twitter",
+      "url": "https://twitter.com/Flipped25756150",
+      "customTile": "",
+      "urlRandomToken": false
     }
   },
   "shortcuts": [
@@ -561,13 +658,41 @@
         },
         {
           "app": "kang-docs-python",
-          "title":"Python",
+          "title": "Python",
           "params": {},
           "hash": ""
         },
         {
           "app": "kang-docs-animate",
-          "title":"Animate",
+          "title": "Animate",
+          "params": {},
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "title": "常用工具",
+      "children": [
+        {
+          "app": "kang-docs-regex",
+          "title": "Regex",
+          "params": {},
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "title": "社交",
+      "children": [
+        {
+          "app": "kang-social-qq",
+          "title":"QQ",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "kang-social-twitter",
+          "title":"Twitter",
           "params": {},
           "hash": ""
         }
@@ -599,39 +724,6 @@
           "i": "110",
           "params": {},
           "hash": ""
-        },
-        {
-          "x": 4,
-          "y": 4,
-          "w": 2,
-          "h": 2,
-          "app": "yl-browser",
-          "title": "浏览器",
-          "i": "146",
-          "params": {},
-          "hash": ""
-        },
-        {
-          "x": 0,
-          "y": 0,
-          "w": 6,
-          "h": 4,
-          "app": "yl-app-home",
-          "title": "YLUI 官网",
-          "i": "147",
-          "params": {},
-          "hash": ""
-        },
-        {
-          "x": 2,
-          "y": 6,
-          "w": 4,
-          "h": 2,
-          "app": "ylui-documents",
-          "title": "在线文档",
-          "i": "158",
-          "params": {},
-          "hash": ""
         }
       ]
     }
@@ -658,12 +750,6 @@
         "params": {},
         "hash": ""
       },
-      "itemPushed-89": {
-        "app": "yl-app-home",
-        "title": "YLUI 官网",
-        "params": {},
-        "hash": ""
-      },
       "itemPushed-96": {
         "app": "yl-system",
         "title": "系统设置",
@@ -673,24 +759,6 @@
       "itemPushed-88": {
         "app": "yl-app-store",
         "title": "应用商店",
-        "params": {},
-        "hash": ""
-      },
-      "itemPushed-153": {
-        "app": "ylui-documents",
-        "title": "在线文档",
-        "params": {},
-        "hash": ""
-      },
-      "itemPushed-155": {
-        "app": "ylui-gitee",
-        "title": "码云仓库",
-        "params": {},
-        "hash": ""
-      },
-      "itemPushed-157": {
-        "app": "ylui-github",
-        "title": "github",
         "params": {},
         "hash": ""
       }
